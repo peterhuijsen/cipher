@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console", "console\console.csproj", "{75C354EB-1893-4FE8-9573-223FD809F786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cipher", "cipher\cipher.csproj", "{5DADC6B8-4501-4631-9A1E-60F2CAF7277A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client", "client\client.csproj", "{EC04F7E0-895C-4F30-B8FF-38A25CA9F729}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75C354EB-1893-4FE8-9573-223FD809F786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C354EB-1893-4FE8-9573-223FD809F786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C354EB-1893-4FE8-9573-223FD809F786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C354EB-1893-4FE8-9573-223FD809F786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DADC6B8-4501-4631-9A1E-60F2CAF7277A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DADC6B8-4501-4631-9A1E-60F2CAF7277A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DADC6B8-4501-4631-9A1E-60F2CAF7277A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DADC6B8-4501-4631-9A1E-60F2CAF7277A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC04F7E0-895C-4F30-B8FF-38A25CA9F729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC04F7E0-895C-4F30-B8FF-38A25CA9F729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC04F7E0-895C-4F30-B8FF-38A25CA9F729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC04F7E0-895C-4F30-B8FF-38A25CA9F729}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
