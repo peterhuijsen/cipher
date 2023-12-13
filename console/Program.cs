@@ -26,8 +26,8 @@ var cipherOptions = serviceProvider.GetRequiredService<IOptions<CipherOptions>>(
 
 // Retrieve input text and key.
 Console.Write("Enter your symmetric key: ");
-var key = textEncoderService.Decode(Console.ReadLine()!);
-var input = encoderService.Decode(File.ReadAllText(cipherOptions.Value.Input));
+var key = textEncoderService.Decode(Console.ReadLine()!.Trim());
+var input = encoderService.Decode(File.ReadAllText(cipherOptions.Value.Input).Trim());
 
 // Transform the data.
 var result = cipherOptions.Value.Mode == ModeType.Decrypt
